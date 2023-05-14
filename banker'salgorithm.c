@@ -53,8 +53,8 @@ void main()
         }
         printf("\n");
     }
-    printf("\n\n");
-    
+    printf("\n");
+    printf("\n");
     //need values
     printf("NEED VALUES : ");
     for(i=0;i<m;i++)
