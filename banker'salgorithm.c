@@ -64,7 +64,7 @@ void main()
             need[i][j] = max[i][j] - al[i][j];
             printf("\t %d",need[i][j]);
         }
-        printf("\n");
+        printf(" \n ");
     }
     //for terminating the processṇ
     p=1;
