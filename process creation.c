@@ -11,7 +11,7 @@ int main()
         printf("there was an error while the creation of process\n");
         exit(0);
     }
-    if(pid!=0)
+    if( pid!=0)
     {
         pid1 = getpid();
         printf("parent process id : %d \n",pid1);
@@ -20,6 +20,7 @@ int main()
     {
         pid2 = getpid();
         printf("child process id : %d \n",pid2);
+        //thread child creation and printing
     }
     return 0;
 }
